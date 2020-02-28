@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body {
+    position: relative;
+    font-size: 18px;
+    max-width: 42em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.35;
+    background-color: #ffeeee;
+}
+
+div.intro { border-left: 1px solid rgba(0,0,0,0.4); padding-left:1em; }
+h1, h2 { color: #cc0044; font-family: sans-serif; }
+div.news time { font-weight: bold; }
+
+body {
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav { display: block; width: 8em; padding-top: 2em; padding-left: 30px; }
+nav>ul { padding-inline-start: 0px; list-style-type: none; margin: 0px; }
+main { display: block; flex: 1; }
